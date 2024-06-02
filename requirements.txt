@@ -7,3 +7,5 @@ python-dotenv
 requests
 langchain
 streamlit
+pyTelegramBotAPI
+fastapi
