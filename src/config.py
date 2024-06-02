@@ -8,6 +8,8 @@ class AppSettings(BaseSettings):
         env_file = ".env"
         env_file_encoding = "utf-8"
 
+    APP_TITLE: str
+
     OPENAI_API_KEY: str
     HUGGINGFACEHUB_API_TOKEN: str
     PROMPT_FOR_FRIENDLY_CONVERSATION: str
