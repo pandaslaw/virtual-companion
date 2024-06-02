@@ -1,5 +1,5 @@
 #!/bin/sh
 
-source ./install-requirements.sh
+source ./py-install-requirements.sh
 
 streamlit run ./src/run_streamlit.py
