@@ -6,4 +6,4 @@ source ./venv/bin/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 
-chmod +x py-run-bot && chmod +x py-run-server && chmod +x py-run-streamlit
+chmod +x ./py-run-bot.sh && chmod +x ./py-run-server.sh && chmod +x ./py-run-streamlit.sh
