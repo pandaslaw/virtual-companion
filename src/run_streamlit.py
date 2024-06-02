@@ -2,7 +2,7 @@ import streamlit as st
 
 from src.companion import Companion
 from src.config import app_settings
-from src.utils import generate_response
+from src.utils import write_response_to_streamlit
 
 if __name__ == "__main__":
     huggingface_api_key = app_settings.HUGGINGFACEHUB_API_TOKEN
@@ -38,4 +38,4 @@ if __name__ == "__main__":
             st.warning("Please enter your HuggingFace API key!", icon="⚠")
 
         if submitted and huggingface_api_key.startswith("hf_"):
-            generate_response(text, companion_character)
+            write_response_to_streamlit(text, companion_character)
