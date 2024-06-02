@@ -1,4 +1,4 @@
-@echo off
+#!/bin/sh
 
 source ./install-requirements.sh
 
