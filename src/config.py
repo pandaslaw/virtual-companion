@@ -12,6 +12,7 @@ class AppSettings(BaseSettings):
     HUGGINGFACEHUB_API_TOKEN: str
     PROMPT_FOR_FRIENDLY_CONVERSATION: str
     PROMPT_FOR_ROMANTIC_CONVERSATION: str
+    TELEGRAM_BOT_TOKEN: str
 
 
 logger.info("Loading environment variables from .env file.")
