@@ -2,5 +2,6 @@ from enum import Enum
 
 
 class Companion(Enum):
-    FRIENDLY = (1,)
+    GURU = (1,)
     ROMANTIC = (2,)
+    DEV = (3,)

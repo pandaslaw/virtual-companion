@@ -12,9 +12,15 @@ class AppSettings(BaseSettings):
 
     OPENAI_API_KEY: str
     HUGGINGFACEHUB_API_TOKEN: str
-    PROMPT_FOR_FRIENDLY_CONVERSATION: str
+    STABLE_DIFFUSION_API_KEY: str
+
+    PROMPT_FOR_GURU_CONVERSATION: str
     PROMPT_FOR_ROMANTIC_CONVERSATION: str
+    PROMPT_FOR_DEV: str
+
+    TELEGRAM_BOT_GURU_TOKEN: str
     TELEGRAM_BOT_TOKEN: str
+    TELEGRAM_BOT_DEV_TOKEN: str
 
 
 logger.info("Loading environment variables from .env file.")
